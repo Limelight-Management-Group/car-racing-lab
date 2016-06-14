@@ -13,3 +13,23 @@ class Car
   end
 
 end
+
+
+
+# class Dog
+#   attr_accessor :name
+#   attr_reader :hunger_level
+
+#   def hunger_level=(hunger_level)
+#     @hunger_level = hunger_level if hunger_level.class == Fixnum
+#   end
+
+#   def eats
+#     @hunger_level -= 1
+#   end
+
+#   def eats
+#     self.hunger_level = 8
+#   end
+
+# end
